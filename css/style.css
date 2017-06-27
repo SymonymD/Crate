@@ -6,7 +6,7 @@ body {
   color:#333333
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Museo Slab", Helvetica, Arial, sans-serif;
+  font-family: "Museo Slab 700", Helvetica, Arial, sans-serif;
 }
 h2 {
   font-size: 28px;
@@ -16,5 +16,5 @@ h2 {
 p {
   font-size: 16px;
   line-height: 19px;
-  font-weight: 100;
+  font-weight: 300;
 }
