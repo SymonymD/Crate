@@ -1,0 +1,49 @@
+html, body {
+  overflow-x:hidden;
+}
+body {
+  font-family: "Museo Slab", Helvetica, Arial, sans-serif;
+  color:#333333
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Museo Slab", Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+title {
+  font-size: 50px;
+  font-weight: bold; 
+  margin-bottom: 5px;
+}
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 100;
+}
+
+/* GRID */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear:both;
+}
+.one-half, .one-third, .one-fourth {
+  width:96%;
+  float:left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
