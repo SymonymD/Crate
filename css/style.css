@@ -250,8 +250,13 @@ p {
    text-align: center;
    padding:2em 0;
  }
- .pricing h2, .pricing p {
+ .pricing h2 {
    color:#f2f2f2;
+   font-size: 40px;
+ }
+  .pricing p {
+   color:#ffffff;
+   font-size: 20px;
  }
  .pricing ul {
    margin:0 auto;
@@ -264,7 +269,7 @@ p {
 
  .box {
    padding:0 15px 15px;
-   background: #FFFFFF;
+   background: #2b2e4a;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
    min-height: 420px;
    position: relative;
@@ -278,7 +283,7 @@ p {
    font-family: "museo slab", Helvetica, Arial, sans-serif;
    font-weight: 700;
    text-transform: uppercase;
-   background: #2b2e4a;
+   background: #53354a;
    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
    left:0;
    right:0;
@@ -298,7 +303,7 @@ p {
    vertical-align: top;
  }
  .box h4 span.month {
-   font-family: "Lato", Helvetica, Arial, sans-serif;
+   font-family: "museo slab", Helvetica, Arial, sans-serif;
    font-weight: 100;
    color:#888888;
    font-size:20px;
@@ -327,10 +332,17 @@ p {
    text-align: center;
  }
  .testimonials h2 {
-   color:#3498DB;
+   color:#2b2e4a;
+   font-size: 44px;
+   margin-bottom: 40px;
  }
  .testimonials ul li {
    list-style-type: none;
+ }
+ .testimonials p {
+   font-size: 18px;
+   margin-bottom: 50px;
+   margin-top: -10px;
  }
  .testimonials blockquote {
    color:#FFFFFF;
@@ -356,8 +368,8 @@ p {
    margin-left: -10px;
  }
  .testimonials img {
-   height: 65px;
-   width: 65px;
+   height: 70px;
+   width: 70px;
    border-radius:50%;
    float: left;
    display: inline-block;
@@ -368,5 +380,10 @@ p {
    display: inline-block;
    text-align: left;
    font-size:13px;
-   margin-top: 30px;
+   margin-top: 20px;
  }
+.boxtwo {
+  position: relative;
+  margin-top: 20px;
+  list-style-type: none;
+}
