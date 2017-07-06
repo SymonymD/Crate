@@ -22,10 +22,21 @@
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 100px;
+    min-width: 95px;
     list-style: none;
-	padding: 20;
-	margin: 20px 0 0;
+	padding: 10;
+	margin:20px 0;
+}
+.dropup .dropup-submenu .{
+  position: absolute;
+  bottom: 100%;
+  right: 0; /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 95px;
+  list-style: none;
+  padding: 10;
+  margin:20px 0;
 }
 .dropit .dropit-open .dropit-submenu {
   display: block;
@@ -45,12 +56,21 @@
   top: -8px;
   right: 10px;
 }
-.dropit .dropit-open .dropit-submenu li: last-child {
-  margin-bottom: 0px;
+.dropit .dropit-open .dropit-submenu li{
+  display: block;
+  margin: 10px 20px 10px 5px;
+}
+.dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 10px;
 }
 .dropit .dropit-open .dropit-submenu li a {
   color: #34495E;
   text-decoration: none;
   font-family: "museo slab", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  font-size: 12;
 }
+
+
+
+/*Settings*/
