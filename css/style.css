@@ -542,8 +542,11 @@ padding: 1em 0em 1em 2em;
    text-decoration: none;
    text-align: right;
    float: right;
-   margin-right:100px;
-   margin-top:8px;
+   margin-right:10px;
+   margin-top:-5px;
+ }
+ .left-nav .settings li {
+   display: inline-block;
  }
  .active {
    color:#000000;

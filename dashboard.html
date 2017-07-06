@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/dropit.css">
+<link rel="stylesheet" href="css/dropup.css"
 
 
 </head>
@@ -47,9 +48,9 @@
        <li>
          <a href="#"><i class="fa fa-cog"></i></a>
           <ul>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Account</a></li>
-            <li><a href="#">Free Hugs</a></li>
+            <li><a href="#"><i class="fa fa-american-sign-language-interpreting"></i>Profile</a></li>
+            <li><a href="#"><i class="fa fa-ambulance"></i>Account</a></li>
+            <li><a href="#"><i class="fa fa-bug"></i>Hugs</a></li>
           </ul>
         </li>
       </ul>
@@ -145,12 +146,15 @@
   <script src="js/dropit.js"></script>
   <script type="text/javascript">
   $(".menu").dropit();
-  $(".cogs").dropit();
   $( "#menu" ).click(function() {
     $("#left-nav").toggleClass("open", 200);
   });
-
-
-  </script>
+</script>
+<script type="text/javascript">
+$(".cogs").dropup();
+$( "#menu" ).click(function() {
+  $("#left-nav").toggleClass("open", 200);
+});
+</script>
 </body>
 </html>

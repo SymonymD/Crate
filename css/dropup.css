@@ -1,6 +1,6 @@
 /*
- * Dropit v1.1.0
- * http://dev7studios.com/dropit
+ * dropup v1.1.0
+ * http://dev7studios.com/dropup
  *
  * Copyright 2012, Dev7studios
  * Free to use and abuse under the MIT license.
@@ -8,55 +8,63 @@
  */
 
 /* These styles assume you are using ul and li */
-.dropit {
+
+/* SETTINGS */
+.dropup {
     list-style: none;
 	padding: 0;
-	margin: 15px 0 0;
+	margin: 12px 0 0;
   float: right;
   display: inline-block;
 }
-.dropit .dropit-trigger { position: relative; }
-.dropit .dropit-submenu {
+.dropup .dropup-trigger { position: relative; }
+.dropup .dropup-submenu {
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 95px;
+    min-width: 150px;
     list-style: none;
-	padding: 10;
+	padding: 0;
 	margin:20px 0;
+  line-height: 44px;
 }
 
-.dropit .dropit-open .dropit-submenu {
+.dropup .dropup-open .dropup-submenu {
   display: block;
   background: #ffffff;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
   border-radius: 4px;
 }
-.dropit .dropit-open .dropit-submenu:after {
+.dropup .dropup-open .dropup-submenu:after {
   content: " ";
   position: absolute;
   border-style: solid;
-  border-width: 0 8px 8px;
+  border-width: 8px 8px 0;
   border-color: #ffffff transparent;
   display: block;
   width: 0;
   z-index: 1;
-  top: -8px;
+  top: 135px;
   right: 10px;
 }
-.dropit .dropit-open .dropit-submenu li{
+.dropup .dropup-open .dropup-submenu li{
   display: block;
-  margin: 10px 20px 10px 5px;
+  margin: 20px 5px 20px 5px;
 }
-.dropit .dropit-open .dropit-submenu li:last-child {
+.dropup .dropup-open .dropup-submenu li:first-child {
   margin-bottom: 10px;
 }
-.dropit .dropit-open .dropit-submenu li a {
+.dropup .dropup-open .dropup-submenu li a {
   color: #34495E;
   text-decoration: none;
   font-family: "museo slab", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 12;
+
 }
+
+
+
+/*Settings*/
