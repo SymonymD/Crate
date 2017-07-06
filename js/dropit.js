@@ -94,4 +94,6 @@
 
     $.fn.dropit.settings = {};
 
-})(jQuery);
+    })(jQuery);
+
+    
